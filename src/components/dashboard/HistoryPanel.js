@@ -4,7 +4,6 @@ import { useWorkout } from "../../context/WorkoutContext";
 import {
   formatCompactDuration,
   formatHistoryDate,
-  pluralize,
 } from "../../utils/formatters";
 
 function getFavoriteWorkout(history) {
