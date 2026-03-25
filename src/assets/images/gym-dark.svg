@@ -1,0 +1,39 @@
+<svg width="1600" height="1100" viewBox="0 0 1600 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1100" fill="#020807"/>
+  <rect width="1600" height="1100" fill="url(#bg)"/>
+  <circle cx="1214" cy="208" r="278" fill="url(#flare)" opacity="0.8"/>
+  <circle cx="298" cy="900" r="330" fill="#00B67A" opacity="0.18"/>
+  <path d="M0 874C173 762 360 712 542 712C830 712 935 898 1210 898C1354 898 1482 858 1600 804V1100H0V874Z" fill="url(#floor)"/>
+  <g opacity="0.4">
+    <rect x="212" y="182" width="300" height="56" rx="28" fill="#B5FFD9"/>
+    <rect x="1086" y="842" width="300" height="56" rx="28" fill="#B5FFD9"/>
+    <rect x="282" y="144" width="26" height="132" rx="13" fill="#B5FFD9"/>
+    <rect x="416" y="144" width="26" height="132" rx="13" fill="#B5FFD9"/>
+    <rect x="1156" y="804" width="26" height="132" rx="13" fill="#B5FFD9"/>
+    <rect x="1290" y="804" width="26" height="132" rx="13" fill="#B5FFD9"/>
+  </g>
+  <g opacity="0.16" stroke="#8BFFD3">
+    <path d="M112 250H1488"/>
+    <path d="M112 430H1488"/>
+    <path d="M112 610H1488"/>
+    <path d="M112 790H1488"/>
+    <path d="M278 96V1004"/>
+    <path d="M800 96V1004"/>
+    <path d="M1322 96V1004"/>
+  </g>
+  <defs>
+    <linearGradient id="bg" x1="1516" y1="80" x2="80" y2="1038" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1E18"/>
+      <stop offset="0.47" stop-color="#05120E"/>
+      <stop offset="1" stop-color="#010403"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="799" y1="712" x2="799" y2="1100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D231C" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#020606"/>
+    </linearGradient>
+    <radialGradient id="flare" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1214 208) rotate(90) scale(278)">
+      <stop stop-color="#65FFBF"/>
+      <stop offset="1" stop-color="#65FFBF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
